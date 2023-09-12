@@ -34,24 +34,13 @@ nav{
   font-family: 'Roboto', sans-serif;
   background:  rgb(14 36 49 / 0.75);
 }
-nav.sticky{
-  background: #4070f4;
-  padding: 13px 0;
-}
+
 nav .navbar{
   width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: auto;
-}
-nav .navbar .logo a{
-  font-weight: 500;
-  font-size: 35px;
-  color: #4070f4;
-}
-nav.sticky .navbar .logo a{
-  color: #fff;
 }
 nav .navbar .menu{
   display: flex;
@@ -71,43 +60,11 @@ nav .navbar .menu li{
 .navbar .menu a:hover{
   color: #4070f4;
 }
-nav.sticky .menu a{
-  color: #FFF;
-}
-nav.sticky .menu a:hover{
-  color: #0E2431;
-}
 .navbar .media-icons a{
   color: #4070f4;
   font-size: 18px;
   margin: 0 6px;
 }
-nav.sticky .media-icons a{
-  color: #FFF;
-}
-
-/* Side Navigation Menu Button CSS */
-nav .menu-btn,
-.navbar .menu .cancel-btn{
-  position: absolute;
-  color: #fff;
-  right: 30px;
-  top: 20px;
-  font-size: 20px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  display: none;
-}
-nav .menu-btn{
-  color: #4070f4;
-}
-nav.sticky .menu-btn{
-  color: #FFF;
-}
-.navbar .menu .menu-btn{
-  color: #fff;
-}
-
 /* home section styling */
 .home{
   height: 100vh;
@@ -141,32 +98,6 @@ nav.sticky .menu-btn{
   margin: 5px 0;
   color: #4070f4;
 }
-.home .text-four{
-  font-size: 23px;
-  margin: 5px 0;
-  color: #0E2431;
-}
-.home .button{
-  margin: 14px 0;
-}
-.home .button button{
-  outline: none;
-  padding: 8px 16px;
-  border-radius: 6px;
-  font-size: 25px;
-  font-weight: 400;
-  background: #4070f4;
-  color: #fff;
-  cursor: pointer;
-  border: 2px solid transparent;
-  transition: all 0.4s ease;
-}
-.home .button button:hover{
-  border-color: #4070f4;
-  background-color: #fff;
-  color: #4070f4;
-}
-
 /* About Section Styling */
 section{
   padding-top: 40px;
@@ -231,27 +162,6 @@ section  .topic{
   text-align: justify;
   color: #0E2431;
 }
-section .button{
-  margin: 16px 0;
-}
-section .button button{
-  outline: none;
-  padding: 8px 16px;
-  border-radius: 4px;
-  font-size: 25px;
-  font-weight: 400;
-  background: #4070f4;
-  color: #fff;
-  border: 2px solid transparent;
-  cursor: pointer;
-  transition: all 0.4s ease;
-}
-section .button button:hover{
-  border-color: #4070f4;
-  background-color: #fff;
-  color: #4070f4;
-}
-
  /* My Skills (Resume) CSS */
  .skills{
    background: #F0F8FF;
@@ -329,6 +239,27 @@ section .button button:hover{
   box-sizing:border-box;
   transition:.3s;
 }
+
+.contact .button{
+  margin: 16px 0;
+}
+.contact .button button{
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 25px;
+  font-weight: 400;
+  background: #4070f4;
+  color: #fff;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.contact .button button:hover{
+  border-color: #4070f4;
+  background-color: #fff;
+  color: #4070f4;
+}
 input[type=text]:focus{
   border-color:dodgerBlue;
   box-shadow:0 0 8px 0 dodgerBlue;
@@ -351,17 +282,4 @@ footer .text span a{
 }
 footer .text span a:hover{
   text-decoration: underline;
-}
-/* Scroll TO Top Button CSS */
-.scroll-button a{
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  color: #fff;
-  background: #4070f4;
-  padding: 7px 12px;;
-  font-size: 18px;
-  border-radius: 6px;
-  box-shadow: rgba(0, 0, 0, 0.15);
-  display: none;
 }
